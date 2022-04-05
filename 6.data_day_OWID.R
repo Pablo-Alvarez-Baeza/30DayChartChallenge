@@ -9,6 +9,7 @@ font_add(family = "Lato black",
          regular = "Lato-Black.ttf")
 
 # Data
+# https://ourworldindata.org/life-expectancy
  life_expectancy <- read_csv("life-expectancy-of-women-vs-life-expectancy-of-women.csv") |> 
    clean_names() |> 
    select(country = entity,
