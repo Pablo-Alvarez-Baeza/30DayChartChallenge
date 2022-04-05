@@ -60,7 +60,7 @@ graph <- graph_from_data_frame(links)
 # Male plot
 ggraph(graph, layout="linear") + 
   geom_edge_arc(aes(edge_colour = group, edge_width = width, edge_alpha = group)) +
-  geom_node_text(aes(label = name), repel = FALSE, size = 10, nudge_y = -1,
+  geom_node_text(aes(label = name), repel = FALSE, size = 8, nudge_y = -1,
                  color = rep(c("white", NA, NA, NA), length.out = 89)) +
   scale_edge_color_manual(values = c("black","grey75", "#39FF14")) +
   scale_edge_alpha_manual(values = c(0, .15, 1)) +
