@@ -1,5 +1,5 @@
 library(pacman)
-p_load(tidyverse, janitor, showtext, ggtext, ggraph, igraph, camcorder, pathwork)
+p_load(tidyverse, janitor, showtext, ggtext, ggraph, igraph, camcorder)
 
 gg_record(dir = "temp", device = "png", width = 16.5, height = 11.7, units = "in", dpi = 320)
 
@@ -10,7 +10,7 @@ font_add(family = "Lato black",
 
 # Data
 # https://ourworldindata.org/life-expectancy
- life_expectancy <- read_csv("life-expectancy-of-women-vs-life-expectancy-of-women.csv") |> 
+life_expectancy <- read_csv("life-expectancy-of-women-vs-life-expectancy-of-women.csv") |> 
    clean_names() |> 
    select(country = entity,
           year,
@@ -24,18 +24,18 @@ font_add(family = "Lato black",
    mutate(value = round(value, 0))
  
  # Largest gender difference = Lithuania
- life_expectancy |> 
-   group_by(country) |> 
-   mutate(diff =  value - lag(value)) |>
-   ungroup() |> 
-   slice_max(diff, n = 1) 
+life_expectancy |> 
+ group_by(country) |> 
+ mutate(diff =  value - lag(value)) |>
+ ungroup() |> 
+ slice_max(diff, n = 1) 
  
 
 # Male --------------------------------------------------------------------
- life_expectancy_male <- life_expectancy |> 
-   filter(gender == "birth_male")  
+life_expectancy_male <- life_expectancy |>
+ filter(gender == "birth_male")  
  
- life_expectancy_male |> 
+life_expectancy_male |> 
   summarize(n_countries = n_distinct(country),
             max_life_expecetancy = max(value))
 
@@ -65,12 +65,12 @@ ggraph(graph, layout="linear") +
   scale_edge_color_manual(values = c("black","grey75", "#39FF14")) +
   scale_edge_alpha_manual(values = c(0, .15, 1)) +
   labs(title = "Life Expectancy by Sex",
-       subtitle = "In every country the life expectancy of <span style='color:#BB29BB'>women</span> is higher than the life expectancy of <span style='color:#39FF14'>men</span>") +
+       subtitle = "In every country the life expectancy of <span style='color:#BB29BB'>**women**</span> is higher than the life expectancy of <span style='color:#39FF14'>**men**</span>") +
   theme_void(base_family = "Lato") +
   theme(plot.margin = margin(t = 40, r = 50, b = 0, l = 50),
         panel.background = element_rect(fill = "black", color = "black"),
         plot.background = element_rect(fill = "black", color = "black"),
-        plot.title = element_text(size = 96,
+        plot.title = element_markdown(size = 96,
                                   family = "Lato black",
                                   color = "white"),
         plot.subtitle = element_markdown(size = 28,
@@ -116,7 +116,7 @@ ggraph(graph, layout="linear") +
   scale_edge_color_manual(values = c("black", "grey50", "#BB29BB")) +
   scale_edge_alpha_manual(values = c(0, .15, 1)) +
   labs(caption = "Visualization by Pablo Alvarez | Data from OurWorldInData: Life Expectancy at birth for the year 2020") +
-  theme_void(base_family = "Lato") +
+  theme_void(base_family = lato) +
   theme(plot.margin = margin(t = 0, r = 50, b = 0, l = 50),
         panel.background = element_rect(fill = "black", color = "black"),
         plot.background = element_rect(fill = "black", color = "black"),
