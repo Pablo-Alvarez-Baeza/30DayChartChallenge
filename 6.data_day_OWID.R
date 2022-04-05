@@ -60,7 +60,8 @@ graph <- graph_from_data_frame(links)
 # Male plot
 ggraph(graph, layout="linear") + 
   geom_edge_arc(aes(edge_colour = group, edge_width = width, edge_alpha = group)) +
-  geom_node_text(aes(label=name), repel = FALSE, size = 3, color = "white", nudge_y = -1) +
+  geom_node_text(aes(label = name), repel = FALSE, size = 10, nudge_y = -1,
+                 color = rep(c("white", NA, NA, NA), length.out = 89)) +
   scale_edge_color_manual(values = c("black","grey75", "#39FF14")) +
   scale_edge_alpha_manual(values = c(0, .15, 1)) +
   labs(title = "Life Expectancy by Sex",
@@ -110,7 +111,8 @@ graph <- graph_from_data_frame(links)
 # Female plot
 ggraph(graph, layout="linear") + 
   geom_edge_arc(aes(edge_color = group, edge_width = width, edge_alpha = group), strength = -1) +
-  geom_node_text(aes(label=name), repel = FALSE, size = 3, color = "white", nudge_y = .5) +
+  geom_node_text(aes(label=name), repel = FALSE, size = 4, nudge_y = .5,
+                 color = rep(c("white", NA, NA, NA), length.out = 89)) +
   scale_edge_color_manual(values = c("black", "grey50", "#BB29BB")) +
   scale_edge_alpha_manual(values = c(0, .15, 1)) +
   labs(caption = "Visualization by Pablo Alvarez | Data from OurWorldInData: Life Expectancy at birth for the year 2020") +
