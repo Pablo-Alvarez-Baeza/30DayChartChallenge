@@ -18,7 +18,8 @@ life_expectancy <- read_csv("life-expectancy-of-women-vs-life-expectancy-of-wome
           birth_female = contains("birth_females"),
           birth_male = contains("birth_males")) |> 
    filter(year == 2020,
-          !is.na(code)) |> 
+          !is.na(code),
+          !country == "World") |> 
    na.omit() |>
    pivot_longer(cols = c(birth_male, birth_female), names_to = "gender") |> 
    mutate(value = round(value, 0))
