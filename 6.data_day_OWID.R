@@ -34,7 +34,8 @@ life_expectancy |>
 
 # Male --------------------------------------------------------------------
 life_expectancy_male <- life_expectancy |>
- filter(gender == "birth_male")  
+ filter(gender == "birth_male")  |> 
+  filter(value == 70)
  
 life_expectancy_male |> 
   summarize(n_countries = n_distinct(country),
