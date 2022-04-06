@@ -39,9 +39,6 @@ life_expectancy_male |>
   summarize(n_countries = n_distinct(country),
             max_life_expecetancy = max(value))
 
-life_expectancy_male |> 
-  slice_max(value, n = 1) 
-
 links_male <- data.frame(source = 0,
                          value = c(1:88))
 
@@ -53,7 +50,7 @@ links <- links_male |>
                                   TRUE ~ 2))) |> 
   select(source, destiny = value, group) |> 
   group_by(destiny) |> 
-  mutate(width = factor(n()))
+  mutate(width =n())
 
 graph <- graph_from_data_frame(links)
 
@@ -90,8 +87,6 @@ life_expectancy_female |>
   summarize(n_countries = n_distinct(country),
             max_life_expecetancy = max(value))
 
-life_expectancy_female |> 
-  slice_max(value, n = 1) 
 
 links_female <- data.frame(source = 0,
                          value = c(1:88))
@@ -104,7 +99,7 @@ links <- links_female |>
                                   TRUE ~ 2))) |> 
   select(source, destiny = value, group) |> 
   group_by(destiny) |> 
-  mutate(width = factor(n()))
+  mutate(width = n())
 
 graph <- graph_from_data_frame(links)
 
@@ -116,7 +111,7 @@ ggraph(graph, layout="linear") +
   scale_edge_color_manual(values = c("black", "grey50", "#BB29BB")) +
   scale_edge_alpha_manual(values = c(0, .15, 1)) +
   labs(caption = "Visualization by Pablo Alvarez | Data from OurWorldInData: Life Expectancy at birth for the year 2020") +
-  theme_void(base_family = lato) +
+  theme_void(base_family = "Lato") +
   theme(plot.margin = margin(t = 0, r = 50, b = 0, l = 50),
         panel.background = element_rect(fill = "black", color = "black"),
         plot.background = element_rect(fill = "black", color = "black"),
