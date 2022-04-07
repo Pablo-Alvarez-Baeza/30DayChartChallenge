@@ -217,7 +217,7 @@ ggraph(graph, layout="linear") +
   geom_edge_arc(aes(edge_color = group, edge_width = group), strength = -1) +
   geom_node_text(aes(label=name), repel = FALSE, nudge_y = .5,
                  color = rep(c("white", NA, NA, NA), length.out = 89)) +
-  scale_edge_color_manual(values = c("black", "grey50", "#BB29BB")) +
+  scale_edge_color_manual(values = c("black", "grey25", "#BB29BB")) +
   scale_edge_width_manual(values = c(NA, 1, 3)) +
   labs(caption = "Visualization by Pablo Alvarez | Data from OurWorldInData: Life Expectancy at birth for the year 2020") +
   theme_void(base_family = "Lato") +
