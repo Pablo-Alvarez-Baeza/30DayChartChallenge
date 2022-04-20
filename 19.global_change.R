@@ -1,5 +1,5 @@
 library(pacman)
-p_load(tidyverse, showtext, ggtext, camcorder)
+p_load(tidyverse, janitor, showtext, ggtext, camcorder)
 
 # Convert pixels to inches
 # https://www.pixelto.net/px-to-inches-converter
@@ -29,24 +29,33 @@ df |>
   mutate(diff = fertility_rate - lag(fertility_rate)) |>
   ungroup() |> 
   na.omit() |> 
-  slice_min(diff, n = 1) |> View()
+  slice_min(diff, n = 3) |> View()
+
 
 # Plot
 df |> 
   ggplot(aes(year, fertility_rate, group = country)) +
+  # Cedric resource on how to add  # Geometric annotations that play the role of grid lines
+  # https://r-graph-gallery.com/web-line-chart-with-labels-at-end-of-line.html
+  geom_segment(
+    data = tibble(y = seq(1, 8, by = 1), x1 = 1950, x2 = 2020),
+    aes(x = x1, xend = x2, y = y, yend = y),
+    inherit.aes = FALSE,
+    color = "black",
+    size = .02
+  ) +
   geom_line(data = df |> filter(!country %in% c("Taiwan", "World")), color = "grey75", alpha = .25, size = .25) +
   geom_line(data = df |> filter(country == "Taiwan"), color = "black", size = .25, alpha = .5) +
   geom_line(data = df |> filter(country == "World"), color = "white", size = 1.25) +
   geom_line(data = df |> filter(country == "World"), color = "#BB29BB", size = 1) +
   scale_x_continuous(limits = c(1950, 2025.5),
-                     breaks = seq(1950, 2025.5, by = 10)) +
+                     breaks = seq(1950, 2020, by = 10)) +
   scale_y_continuous(limits = c(1, 8.5),
                      breaks = seq(1, 9, by = 1)) +
   geom_text(data = df |> filter(country == "World", year == 2020), aes(label = paste(country, "\n", round(fertility_rate, 1))), x = 2020.25, color = "#BB29BB", family = "Lato", hjust = 0, vjust = .75, size = 1.5, lineheight = .9, fontface = "bold") +
   geom_text(data = df |> filter(country == "Taiwan", year == 2020), aes(label = paste(country, "\n", round(fertility_rate, 1))), x = 2020.25, color = "black", family = "Lato", hjust = 0,  vjust = .4, size = 1.5, lineheight = .9) +
-  coord_cartesian(xlim = c(1950, 2025.5),
-                  clip = "off",
-                  expand = c(0, 0)) +
+  coord_cartesian(expand = c(0, 0),
+                  clip = "off") +
   theme_minimal(base_family = "Lato") +
   labs(x = NULL,
        y = "Fertility rate",
@@ -55,7 +64,7 @@ df |>
        caption = "Visualization by Pablo Alvarez | Data from Our World In Data\nFertility rate measures the average number of children per woman") +
   theme(
     panel.grid = element_blank(),
-    panel.margin = margin(10,5, 10, 5),
+    panel.margin = margin(10, 5, 10, 5),
     plot.background = element_rect(fill = "#E5F0DE", color = "#E5F0DE"),
     panel.background = element_rect(fill = "#E5F0DE", color = "#E5F0DE"),
     axis.title.y = element_text(angle = 90, hjust = .95, size = 4),
