@@ -13,6 +13,9 @@ font_add(family = "Lato black",
 font_add(family = "Lato light",
          regular = "Lato-Light.ttf")
 
+# Understanding fertility rate
+# https://www.ined.fr/en/everything_about_population/videos/animation-measuring-fertility/
+
 # Data
 # https://ourworldindata.org/fertility-rate
 df <- read_csv("children-per-woman-UN.csv") |> 
