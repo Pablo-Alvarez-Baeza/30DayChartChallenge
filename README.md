@@ -1,4 +1,4 @@
-![](30chartchallenge_19_slope_2022.png)
+![](30chartchallenge_19_global_change_2022.png)
 ![](30chartchallenge_5_slope_2022_figma.png)
 ![](30chartchallenge_13_2022_figma.png)
 ![](30chartchallenge_9_2022_figma.png)
