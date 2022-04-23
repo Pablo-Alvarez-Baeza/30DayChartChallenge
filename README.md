@@ -6,12 +6,22 @@
 Let's connect!
 </p>
 
-[1]: https://twitter.com/pablo_alvrez
-[2]: https://www.linkedin.com/in/pabloalvarezbaeza/
+              
+<div align="center">
+ <a href="https://twitter.com/pablo_alvrez">
+   <img alt="Twitter" src="icons/twitter.png"
+        width=50" height="50">
+      </a>
+ <a href="https://www.linkedin.com/in/pabloalvarezbaeza/">
+   <img alt="LinkedIn" src="icons/linkedin.png"
+        width=50" height="50">
+      </a>
+</div>         
+
+                    
 
 
-[<img src="icons/twitter.png" width="50" height="50" align="center">](https://twitter.com/pablo_alvrez)
-[<img src="icons/linkedin.png" width="50" height="50" align="center">](https://www.linkedin.com/in/pabloalvarezbaeza/)
+[<img src="icons/linkedin.png" width="50" height="50" align="left">](https://www.linkedin.com/in/pabloalvarezbaeza/)
 
 
 
