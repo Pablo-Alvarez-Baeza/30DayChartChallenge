@@ -2,7 +2,7 @@
 #30DayChartChallenge 2022
 </h1>
 
-<h4 align="center">
+<h3 align="center">
 <img src="icons/handwaving.gif"
      width= 20 height=20>
       Let's connect!
