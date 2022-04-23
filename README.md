@@ -5,24 +5,27 @@
 <p align="center">
 Let's connect!
 </p>
-
-              
+           
 <div align="center">
  <a href="https://twitter.com/pablo_alvrez">
    <img alt="Twitter" src="icons/twitter.png"
-        width=50" height="50">
+        width=45" height="45">
       </a>
  <a href="https://www.linkedin.com/in/pabloalvarezbaeza/">
    <img alt="LinkedIn" src="icons/linkedin.png"
+        width=45" height="45">
+      </a>
+   <a href="https://www.instagram.com/hi.pablo.alvarez/">
+   <img alt="Instagram" src="icons/instagram.png"
         width=50" height="50">
       </a>
+      <a href="https://www.behance.net/pabloalvarez21">
+   <img alt="Behance" src="icons/behance.png"
+        width=50" height="50">
+      </a>                                           
 </div>         
 
-                    
-
-
-[<img src="icons/linkedin.png" width="50" height="50" align="left">](https://www.linkedin.com/in/pabloalvarezbaeza/)
-
+                   
 
 
 ![](30chartchallenge_18_connections_2022_figma.png)
