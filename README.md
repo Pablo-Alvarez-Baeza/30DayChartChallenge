@@ -38,7 +38,7 @@ My contributions to the <a href="https://twitter.com/30DayChartChall" target="_b
   
   1. Comparison
       * [Slope](/05_slope)
-      * [Data Day:OWID](/06_data_day_owid)
+      * [Data Day:OWID](/06_data_day_OWID)
 </details>
 
 
