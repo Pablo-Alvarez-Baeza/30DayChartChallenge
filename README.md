@@ -1,38 +1,24 @@
-<h1 align="center">
-#30DayChartChallenge 2022
+<h1 style="font-weight:normal" align="center">
+  &nbsp;#30DayChartChallenge 2022&nbsp;
 </h1>
 
-<h3 align="center">
-<img src="icons/handwaving.gif"
+<div align="center">
+     <img src="icons/handwaving.gif"
      width= 20 height=20>
       Let's connect!
-</p>
-
-
-      
-<div align="center">
- <a href="https://twitter.com/pablo_alvrez">
-   <img alt="Twitter icon" src="icons/twitter.png"
-        width=45 height=45>
-      </a>
- <a href="https://www.linkedin.com/in/pabloalvarezbaeza/">
-   <img alt="LinkedIn icon" src="icons/linkedin.png"
-        width=45 height=40>
-      </a>
-   <a href="https://www.instagram.com/hi.pablo.alvarez/">
-   <img alt="Instagram icon" src="icons/instagram.png"
-        width=50 height=50>
-      </a>
-      <a href="https://www.behance.net/pabloalvarez21">
-   <img alt="Behance icon" src="icons/behance.png"
-        width=50 height=50>
-      </a>                                           
-</div>         
+     <br>
+     <br>
+&nbsp;&nbsp;&nbsp;
+<a href="https://twitter.com/pablo_alvrez"><img border="0" alt="Twitter" src="icons/twitter.svg" width="35" height="35"></a>&nbsp;&nbsp;&nbsp; 
+<a href="https://www.instagram.com/hi.pablo.alvarez/"><img border="0" alt="Instagram" src="icons/instagram.svg" width="35" height="35"></a>&nbsp;&nbsp;&nbsp;
+     <a href="https://www.linkedin.com/in/pabloalvarezbaeza/"><img border="0" alt="LinkedIn" src="icons/linkedin.svg" width="35" height="35"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://www.behance.net/pabloalvarez21"><img border="0" alt="Behance" src="icons/behance.svg" width="35" height="35"></a>&nbsp;&nbsp;&nbsp;
 <br>
-<p align="center">
-My contributions to the <a href="https://twitter.com/30DayChartChall" target="_blank">#30DayChartChallenge 2022</a>
-</p>
+ <br>
 
+My contributions to the <a href="https://twitter.com/30DayChartChall" target="_blank">#30DayChartChallenge 2022</a>
+
+![](https://raw.githubusercontent.com/30DayChartChallenge/Edition2022/main/img/prompts-full.png)
 <details>
   <summary>List of all contributions</summary>
   
