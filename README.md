@@ -37,8 +37,8 @@ My contributions to the <a href="https://twitter.com/30DayChartChall" target="_b
   <summary>List of all contributions</summary>
   
   1. Comparison
-     * [Slope](/icons)
-     * Sub bullets
+      * [Slope](/05_slope)
+      * [Data Day:OWID](/06_data_day_owid)
 </details>
 
 
