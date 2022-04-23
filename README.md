@@ -11,14 +11,17 @@
 &nbsp;&nbsp;&nbsp;
 <a href="https://twitter.com/pablo_alvrez"><img border="0" alt="Twitter" src="icons/twitter.svg" width="35" height="35"></a>&nbsp;&nbsp;&nbsp; 
 <a href="https://www.instagram.com/hi.pablo.alvarez/"><img border="0" alt="Instagram" src="icons/instagram.svg" width="35" height="35"></a>&nbsp;&nbsp;&nbsp;
-     <a href="https://www.linkedin.com/in/pabloalvarezbaeza/"><img border="0" alt="LinkedIn" src="icons/linkedin.svg" width="35" height="35"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/pabloalvarezbaeza/"><img border="0" alt="LinkedIn" src="icons/linkedin.svg" width="35" height="35"></a>&nbsp;&nbsp;&nbsp;
 <a href="https://www.behance.net/pabloalvarez21"><img border="0" alt="Behance" src="icons/behance.svg" width="35" height="35"></a>&nbsp;&nbsp;&nbsp;
 <br>
- <br>
+<br>
+<br>
 
 My contributions to the <a href="https://twitter.com/30DayChartChall" target="_blank">#30DayChartChallenge 2022</a>
 
 ![](https://raw.githubusercontent.com/30DayChartChallenge/Edition2022/main/img/prompts-full.png)
+  
+  </div>
 <details>
   <summary>List of all contributions</summary>
   
