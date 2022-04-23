@@ -25,12 +25,16 @@ Let's connect!
         width=50" height="50">
       </a>                                           
 </div>         
-
+<br>
 <p align="center">
 My contributions to the <a href="https://twitter.com/30DayChartChall" target="_blank">#30DayChartChallenge 2022</a>
 </p>
+<br>
 
-<a href="https://twitter.com/30DayChartChall" onclick='window.open("https://twitter.com/30DayChartChall");return false;'>aaa</a>
+<img src="icons/#30daychartchallenge.jpeg">
+<img src="icons/#30daychartchallenge.jpeg" alt="Flowers in Chania">
+
+
 
       
 
