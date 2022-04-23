@@ -37,14 +37,20 @@ My contributions to the <a href="https://twitter.com/30DayChartChall" target="_b
   <summary>List of all contributions</summary>
   
   1. Comparison
+      * [Part-to-Whole](/01_part_to_whole)
+      * [Pictogram](/02_pictogram)
+      * [Historical](03_historical)
       * [Slope](/05_slope)
       * [Data Day:OWID](/06_data_day_OWID)
+  2. Distributions
+      * [Statistics](/09_statistics)
+  3. Relationships
+      * [Correlation](/09_correlations)
+      * [Connections](/17_connections)
+  4. Timeseries
+      * [Global Change](/19_global_change)
+
 </details>
-
-
-
-      
-
 
 ![](30chartchallenge_18_connections_2022_figma.png)
 ![](30chartchallenge_19_global_change_2022.png)
