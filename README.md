@@ -30,6 +30,9 @@ Let's connect!
 My contributions to the <a href="https://twitter.com/30DayChartChall" target="_blank">#30DayChartChallenge 2022</a>
 </p>
 
+<a href="https://twitter.com/30DayChartChall" onclick='window.open("https://twitter.com/30DayChartChall");return false;'>aaa</a>
+
+      
 
 
 ![](30chartchallenge_18_connections_2022_figma.png)
