@@ -5,7 +5,8 @@
 <p align="center">
 Let's connect!
 </p>
-           
+
+      
 <div align="center">
  <a href="https://twitter.com/pablo_alvrez">
    <img alt="Twitter" src="icons/twitter.png"
@@ -25,16 +26,11 @@ Let's connect!
       </a>                                           
 </div>         
 
-<div align="center">
-My contributions to #30DayChartChallenge 2022(https://twitter.com/30DayChartChall).
-<a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
-</div>  
-          
-         
-<div align="center">
-My contributions to #30DayChartChallenge 2022(https://twitter.com/30DayChartChall).
-<a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
-</div>  
+<p align="center">
+My contributions to the <a href="https://twitter.com/30DayChartChall" target="_blank">#30DayChartChallenge 2022</a>
+</p>
+
+
 
 ![](30chartchallenge_18_connections_2022_figma.png)
 ![](30chartchallenge_19_global_change_2022.png)
