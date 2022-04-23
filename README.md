@@ -31,8 +31,15 @@ My contributions to the <a href="https://twitter.com/30DayChartChall" target="_b
 </p>
 <br>
 
-<img src="icons/#30daychartchallenge.jpeg">
-<img src="icons/#30daychartchallenge.jpeg" alt="Flowers in Chania">
+
+# A collapsible section with markdown
+<details>
+  <summary>List of all contributions</summary>
+  
+  1. Comparison
+     * [Slope](/icons)
+     * Sub bullets
+</details>
 
 
 
