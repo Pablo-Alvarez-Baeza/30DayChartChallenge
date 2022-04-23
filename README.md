@@ -52,11 +52,11 @@ My contributions to the <a href="https://twitter.com/30DayChartChall" target="_b
 
 #### Day 3: [Historical](/03_historical)
 ![](03_historical/30chartchallenge_3_2022_figma.png)
-🛠 Tools: Figma
+🛠 Tools: Figma + Photoshop
 
 #### Day 5: [Slope](/05_slope)
 ![](05_slope/30chartchallenge_5_slope_2022_figma.png)
-🛠 Tools: R + Figma
+🛠 Tools: R + Figma + Photoshop
 
 #### Day 6: [Data Day:OWID](/06_data_day_OWID)
 ![](30chartchallenge_6_2022_figma.png)
@@ -65,12 +65,12 @@ My contributions to the <a href="https://twitter.com/30DayChartChall" target="_b
 ### Distributions
 #### Day 9: [Statistics](/09_statistics)
 ![](09_statistics/30chartchallenge_9_2022_figma.png)
-🛠 Tools: R + Figma
+🛠 Tools: R + Figma + Photoshop
 
 ### Relationships
 #### Day 13: [Correlation](/13_correlation)
 ![](13_correlations/30chartchallenge_13_2022_figma.png)
-🛠 Tools: R + Figma
+🛠 Tools: R + Figma + Photoshop
 
 #### Day 17: [Connections](/17_connections)
 ![](17_connections/30chartchallenge_18_connections_2022_figma.png)
