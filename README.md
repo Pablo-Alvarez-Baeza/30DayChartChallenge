@@ -9,19 +9,19 @@ Let's connect!
       
 <div align="center">
  <a href="https://twitter.com/pablo_alvrez">
-   <img alt="Twitter" src="icons/twitter.png"
+   <img alt="Twitter icon" src="icons/twitter.png"
         width=45" height="45">
       </a>
  <a href="https://www.linkedin.com/in/pabloalvarezbaeza/">
-   <img alt="LinkedIn" src="icons/linkedin.png"
+   <img alt="LinkedIn icon" src="icons/linkedin.png"
         width=45" height="45">
       </a>
    <a href="https://www.instagram.com/hi.pablo.alvarez/">
-   <img alt="Instagram" src="icons/instagram.png"
+   <img alt="Instagram icon" src="icons/instagram.png"
         width=50" height="50">
       </a>
       <a href="https://www.behance.net/pabloalvarez21">
-   <img alt="Behance" src="icons/behance.png"
+   <img alt="Behance icon" src="icons/behance.png"
         width=50" height="50">
       </a>                                           
 </div>         
@@ -29,10 +29,7 @@ Let's connect!
 <p align="center">
 My contributions to the <a href="https://twitter.com/30DayChartChall" target="_blank">#30DayChartChallenge 2022</a>
 </p>
-<br>
 
-
-# A collapsible section with markdown
 <details>
   <summary>List of all contributions</summary>
   
@@ -48,7 +45,7 @@ My contributions to the <a href="https://twitter.com/30DayChartChall" target="_b
       * [Correlation](/09_correlations)
       * [Connections](/17_connections)
   4. Timeseries
-      * [Global Change](/19_global_change)
+      * [Global Change](19_global_change/30chartchallenge_19_global_change_2022.png)
 
 </details>
 
@@ -73,10 +70,21 @@ My contributions to the <a href="https://twitter.com/30DayChartChall" target="_b
 ![](30chartchallenge_6_2022_figma.png)
 🛠 Tools: R + Figma
 
-![](/19_global_change/30chartchallenge_19_global_change_2022.png)
-![](30chartchallenge_18_connections_2022_figma.png)
+### Distributions
+#### Day 9: [Statistics](/09_statistics)
+![](09_statistics/30chartchallenge_9_2022_figma.png)
+🛠 Tools: R + Figma
+
+### Relationships
+#### Day 13: [Correlation](/13_correlation)
+![](13_correlations/30chartchallenge_13_2022_figma.png)
+🛠 Tools: R + Figma
+
+#### Day 17: [Connections](/17_connections)
+![](17_connections/30chartchallenge_18_connections_2022_figma.png)
+🛠 Tools: R + Figma
+
+### Timeseries
+#### Day 19: [Global Change](/19_global_change)
 ![](30chartchallenge_19_global_change_2022.png)
-![](30chartchallenge_5_slope_2022_figma.png)
-![](30chartchallenge_13_2022_figma.png)
-![](30chartchallenge_9_2022_figma.png)
-![](30chartchallenge_6_2022_figma.png)
+🛠 Tools: R
