@@ -25,8 +25,16 @@ Let's connect!
       </a>                                           
 </div>         
 
-                   
-
+<div align="center">
+My contributions to #30DayChartChallenge 2022(https://twitter.com/30DayChartChall).
+<a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+</div>  
+          
+         
+<div align="center">
+My contributions to #30DayChartChallenge 2022(https://twitter.com/30DayChartChall).
+<a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+</div>  
 
 ![](30chartchallenge_18_connections_2022_figma.png)
 ![](30chartchallenge_19_global_change_2022.png)
