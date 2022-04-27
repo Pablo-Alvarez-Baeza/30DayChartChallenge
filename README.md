@@ -83,5 +83,5 @@ My contributions to the <a href="https://twitter.com/30DayChartChall" target="_b
 🛠 Tools: R
 
 #### Day 21: [Down/upwards](21_down_upwards)
-![](/30chartchallenge_21_down_upwards_2022.png)
+![](21_down_upwards/30chartchallenge_21_down_upwards_2022.png)
 🛠 Tools: R
