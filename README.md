@@ -38,9 +38,10 @@ My contributions to the <a href="https://twitter.com/30DayChartChall" target="_b
       * [Connections](/17_connections)
   4. Timeseries
       * [Global Change](19_global_change/30chartchallenge_19_global_change_2022.png)
-      * [Down/upwards](21_down_upwards/30chartchallenge_21_down_upwards_2022.png)
+      * [Down-upwards](21_down_upwards/30chartchallenge_21_down_upwards_2022.png)
 
 </details>
+
 
 ### Comparisons
 #### Day 1: [Part-to-Whole](/01_part_to_whole)
