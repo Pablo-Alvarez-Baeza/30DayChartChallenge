@@ -67,7 +67,7 @@ words_gof_plot |>
 ggplot(aes(chapter, score, group = TRUE)) +
   with_outer_glow(geom_col(data = filter(words_gof_plot, score > 0), fill = "white", width = .75),
                   colour = "#F93822", sigma = 7.5) +
-  scale_x_discrete(drop=FALSE) +
+  scale_x_discrete(drop = FALSE) +
   with_outer_glow(geom_col(data = filter(words_gof_plot, score < 0), fill = "white", width = .75),
                   colour = "#39FF14", sigma = 7.5) +
   geom_hline(yintercept = 0, size = .25, color = "white") +
@@ -83,7 +83,7 @@ ggplot(aes(chapter, score, group = TRUE)) +
            arrow = arrow(length = unit(0.01, "npc"))) +
   annotate("text", x = -.5, y = 35, label = "Positive", angle = -90, family = "Lato", color = "#F93822") +
   annotate("text", x = -.5, y = -35, label = "Negative", angle = -90, family = "Lato", color = "#39FF14") +
-  annotate("text", x = 24, y = 92, label = "THE YULE BALL\nCan Dobby give Harry Potter his present?\nHe squeaked tentatively.", size = 4, family = "Lato", fontface = "italic", color = "#F93822", lineheight = .25, hjust = 0) +
+  annotate("text", x = 24, y = 92, label = "23: THE YULE BALL\nCan Dobby give Harry Potter his present?\nHe squeaked tentatively.", size = 4, family = "Lato", fontface = "italic", color = "#F93822", lineheight = .25, hjust = 0) +
   geom_curve(x = 26, y = 67, xend = 24, yend = 38, size = .05, color = "#F93822", curvature = -.5) +
   annotate("segment", x = 1, xend = 1, y = -250, yend = annotations$yend[1],
            colour = "#39FF14", size = .15, linetype = "13", alpha = .5) +
@@ -159,8 +159,8 @@ ggplot(aes(chapter, score, group = TRUE)) +
            colour = "#39FF14", size = .15, linetype = "13", alpha = .5) +
   annotate("segment", x = 37, xend = 37, y = -250, yend = annotations$yend[37],
            colour = "#39FF14", size = .15, linetype = "13", alpha = .5) +
-  annotate("text", x = 26, y = -215, label = "VERITASERUM\nHe's back, Harry whispered.\nHe's back. Voldemort.", size = 4, family = "Lato", fontface = "italic", color = "#39FF14", lineheight = .25, hjust = 0) +
-  geom_curve(x = 31, y = -240, xend = 35, yend = -245, size = .05, color = "#39FF14") +
+  annotate("text", x = 30.8, y = -210, label = "35: VERITASERUM\nHe's back, Harry whispered.\nHe's back. Voldemort.", size = 4, family = "Lato", fontface = "italic", color = "#39FF14", lineheight = .25, hjust = 1) +
+  geom_curve(x = 31, y = -195, xend = 34.5, yend = -230, size = .05, color = "#39FF14", curvature = -.5) +
   labs(x = "Chapter",
        y = "Aggregated Sentiment Score",
        title = "Harry Potter",
@@ -171,7 +171,7 @@ ggplot(aes(chapter, score, group = TRUE)) +
         plot.margin = margin(rep(10, 4)),
         plot.background = element_rect(fill = "black", color = "black"),
         panel.background = element_rect(fill = "black", color = "black"),
-        axis.text.x = element_text(size = 12, color = axis_x_color, margin = margin(t = 0)),
+        axis.text.x = element_text(size = 12, color = axis_x_color, margin = margin(t = -7)),
         axis.text.y = element_text(size = 12, color = "white"),
         axis.title.x = element_text(size = 13, color = "white", hjust = .03, margin = margin(t = 5)),
         axis.title.y = element_text(angle = 90, color = "white", hjust = .8, size = 13),
@@ -181,3 +181,5 @@ ggplot(aes(chapter, score, group = TRUE)) +
         legend.position = "none")
 
 ggsave("30chartchallenge_21_down_upwards_2022.png", width = 1080, height = 1080, units = "px", dpi = 320)
+
+gg_playback()
