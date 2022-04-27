@@ -23,7 +23,7 @@ My contributions to the <a href="https://twitter.com/30DayChartChall" target="_b
   
   </div>
 <details>
-  <summary>List of all contributions (click to expand)</summary>
+  <summary>▶️ List of all contributions (click to expand)</summary>
   
   1. Comparisons
       * [Part-to-Whole](/01_part_to_whole)
