@@ -39,6 +39,8 @@ My contributions to the <a href="https://twitter.com/30DayChartChall" target="_b
   4. Timeseries
       * [Global Change](19_global_change/30chartchallenge_19_global_change_2022.png)
       * [Down-upwards](21_down_upwards/30chartchallenge_21_down_upwards_2022.png)
+  5. Uncertainties
+      * [Future](27_future/30chartchallenge_27_future_2022.png)
 
 </details>
 
@@ -85,4 +87,9 @@ My contributions to the <a href="https://twitter.com/30DayChartChall" target="_b
 
 #### Day 21: [Down/upwards](21_down_upwards)
 ![](21_down_upwards/30chartchallenge_21_down_upwards_2022.png)
+🛠 Tools: R
+
+### Uncertainties
+#### Day 27: [Future](27_future)
+![](27_future/30chartchallenge_27_future_2022.png)
 🛠 Tools: R
