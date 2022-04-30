@@ -23,7 +23,7 @@ My contributions to the <a href="https://twitter.com/30DayChartChall" target="_b
   
   </div>
 <details>
-  <summary>▶️ List of all contributions (click to expand)</summary>
+  <summary>List of all contributions (click to expand)</summary>
   
   1. Comparisons
       * [Part-to-Whole](/01_part_to_whole)
@@ -40,6 +40,7 @@ My contributions to the <a href="https://twitter.com/30DayChartChall" target="_b
       * [Global Change](19_global_change/30chartchallenge_19_global_change_2022.png)
       * [Down-upwards](21_down_upwards/30chartchallenge_21_down_upwards_2022.png)
   5. Uncertainties
+      * [Trend](25_trend/30chartchallenge_25_trend_2022.png)
       * [Future](27_future/30chartchallenge_27_future_2022.png)
 
 </details>
@@ -90,6 +91,10 @@ My contributions to the <a href="https://twitter.com/30DayChartChall" target="_b
 🛠 Tools: R
 
 ### Uncertainties
+#### Day 25: [Trend](25_trend)
+![](25_trend/30chartchallenge_25_trend_2022.png)
+🛠 Tools: R
+
 #### Day 27: [Future](27_future)
 ![](27_future/30chartchallenge_27_future_2022.png)
 🛠 Tools: R
