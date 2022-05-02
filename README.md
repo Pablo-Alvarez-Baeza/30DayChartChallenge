@@ -42,6 +42,7 @@ My contributions to the <a href="https://twitter.com/30DayChartChall" target="_b
   5. Uncertainties
       * [Trend](25_trend/30chartchallenge_25_trend_2022.png)
       * [Future](27_future/30chartchallenge_27_future_2022.png)
+      * [Storytelling](30chartchallenge_29_storytelling_2022_figma.png)
 
 </details>
 
@@ -97,4 +98,8 @@ My contributions to the <a href="https://twitter.com/30DayChartChall" target="_b
 
 #### Day 27: [Future](27_future)
 ![](27_future/30chartchallenge_27_future_2022.png)
+🛠 Tools: R
+
+#### Day 29: [Storytelling](29_storytelling)
+![](27_future/30chartchallenge_29_storytelling_2022_figma.png)
 🛠 Tools: R
