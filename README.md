@@ -102,4 +102,4 @@ My contributions to the <a href="https://twitter.com/30DayChartChall" target="_b
 
 #### Day 29: [Storytelling](29_storytelling)
 ![](29_storytelling/30chartchallenge_29_storytelling_2022_figma.png)
-🛠 Tools: R
+🛠 Tools: R + Figma
